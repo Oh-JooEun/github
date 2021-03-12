@@ -67,3 +67,14 @@
 .input--text::-moz-input-placeholder {
     color: #cacaca;
 }
+
+/* Header */
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+    background: #fff;
+}
+
+header .inner {
+    height: 78px;   
+}
