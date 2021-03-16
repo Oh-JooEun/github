@@ -6,6 +6,10 @@
     color: #333;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Button */
 .btn{
     height:34px;
@@ -21,6 +25,7 @@
     cursor: pointer;
     box-sizing: board-box;
     position: relative;
+    color: #333;
   }
   
   .btn:hover::before {
@@ -76,5 +81,48 @@ header {
 }
 
 header .inner {
-    height: 78px;   
+    /* 화면 중앙에 정렬 */
+    max-width: 980px;
+    height: 78px;
+    margin: 0 auto;   
+}
+
+header .menu-group {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header .logo {
+    margin-right: 10px;
+}
+
+header .logo a {
+    background: url("../img/logo.svg");
+    width: 32px;
+    height: 32px;
+    display: block;
+    /* Phark Method - 성능상 좋지 않음 */
+    /* text-indent: -9999px;  */
+    /* Kellum Method - -9999px를 성능 향상시킴 */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+header .logo a:hover {
+    background: url("../img/logo_on.svg");
+}
+
+header .main-menu {
+    display: flex;
+}
+
+header .main-menu li a {
+    display: block;
+    padding: 10px;
+    color: #3c4146
+}
+
+header .main-menu li a:hover {
+    color: #4078c0;
 }
