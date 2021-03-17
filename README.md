@@ -10,3 +10,4 @@
 # 2021-03-17
 - .inner--text box-sizing 수정
 - Visual 완성
+- Feature 완성

@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
     <meta name="author" author="FOGBOW">
-    <meta name="description" content="GitHub is where people build software. More than 31 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
+    <meta name="description"
+        content="GitHub is where people build software. More than 31 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
     <title>GitHub</title>
 
     <!-- http://ogp.me/ -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="GitHub">
     <meta property="og:title" content="Build software better, together">
-    <meta property="og:description" content="GitHub clone coding / GitHub is where people build software. More than 31 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
+    <meta property="og:description"
+        content="GitHub clone coding / GitHub is where people build software. More than 31 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
     <meta property="og:image" content="img/logo__github.png">
     <meta property="og:url" content="https://github.com">
 
@@ -20,7 +24,8 @@
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="GitHub">
     <meta property="twitter:title" content="Build software better, together">
-    <meta property="twitter:description" content="GitHub clone coding / GitHub is where people build software. More than 31 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
+    <meta property="twitter:description"
+        content="GitHub clone coding / GitHub is where people build software. More than 31 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
     <meta property="twitter:image" content="img/logo__github.png">
     <meta property="twitter:url" content="https://github.com">
 
@@ -34,79 +39,147 @@
     <link rel="stylesheet" href="./css/main.css">
 
 </head>
+
 <body>
-<div class="body__container">
-    
-    <!-- Header -->
-    <header class="section">
-        <div class="inner clearfix">
+    <div class="body__container">
 
-            <!-- 왼쪽 메뉴 그룹 -->
-            <div class="menu-group float--left">
-                <div class="logo">
-                    <a href="#">GitHub</a>
+        <!-- Header -->
+        <header class="section">
+            <div class="inner clearfix">
+
+                <!-- 왼쪽 메뉴 그룹 -->
+                <div class="menu-group float--left">
+                    <div class="logo">
+                        <a href="#">GitHub</a>
+                    </div>
+                    <ul class="main-menu">
+                        <li><a href="#">Persional</a></li>
+                        <li><a href="#">Open source</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Explore</a></li>
+                    </ul>
                 </div>
-                <ul class="main-menu">
-                   <li><a href="#">Persional</a></li> 
-                   <li><a href="#">Open source</a></li> 
-                   <li><a href="#">Business</a></li> 
-                   <li><a href="#">Explore</a></li> 
-                </ul>
+
+                <!-- 오른쪽 메뉴 그룹 -->
+                <div class="sign-group float--right">
+                    <div class="btn-group">
+                        <a href="#" class="btn sign-in">Sign in</a>
+                        <a href="#" class="btn btn--primary sigh-up">Sign up</a>
+                    </div>
+                    <form id="Search-form" method="POST" action="">
+                        <input type="text" id="Search" class="input--text" placeholder="Search GitHub">
+                        <input type="submit" value="Submit">
+                    </form>
+                    <ul class="sub-menu">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+
             </div>
+        </header>
 
-            <!-- 오른쪽 메뉴 그룹 -->
-            <div class="sign-group float--right">
-                <div class="btn-group">
-                    <a href="#" class="btn sign-in">Sign in</a>
-                    <a href="#" class="btn btn--primary sigh-up">Sign up</a>
+        <!-- Visual -->
+        <section class="section section--visual">
+            <div class="inner">
+
+                <div class="summary">
+                    <h2 class="summary__title">
+                        How&nbsp;people build&nbsp;software
+                    </h2>
+                    <p class="summary__description">
+                        Millions of developers use GitHub to build personal projects, support their businesses,
+                        and&nbsp;work together on open source technologies.
+                    </p>
                 </div>
-                <form id="Search-form" method="POST" action="">
-                    <input type="text" id="Search" class="input--text" placeholder="Search GitHub">
-                    <input type="submit" value="Submit" >
+
+                <form method="POST" action="" id="sign-form">
+                    <ul>
+                        <li><input type="text" class="input--text" placeholder="Pick a username"></li>
+                        <li><input type="email" class="input--text" placeholder="Your email address"></li>
+                        <li>
+                            <input type="password" class="input--text" placeholder="Create a password">
+                            <p class="caption">Use at least one letter, one numeral, and seven characters.</p>
+                        </li>
+                        <li>
+                            <button type="submit" class="btn btn--primary">Sign up for GitHub</button>
+                            <p class="caption">By clicking "Sign up for GitHub", you agree to our terms of service and
+                                privacy policy. We'll occasionally send you account related emails.</p>
+                        </li>
+                    </ul>
                 </form>
-                <ul class="sub-menu">
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Support</a></li>
-                </ul>
+
             </div>
+        </section>
 
-        </div>
-    </header>
-
-    <!-- Visual -->
-    <section class="section section--visual">
-        <div class="inner">
+        <!-- Feature -->
+        <section class="section section--feature">
 
             <div class="summary">
-                <div class="summary__title">
-                    How&nbsp;people build&nbsp;software
-                </div>
-                <div class="summary__description">
-                    Millions of developers use GitHub to build personal projects, support their businesses, and&nbsp;work together on open source technologies.
+                <h2 class="summary__title">
+                    Welcome home, developers
+                </h2>
+                <p class="summary__description">
+                    GitHub fosters a fast, flexible, and collaborative development process that lets you work on your
+                    own or with others.
+                </p>
+            </div>
+
+            <div class="video">
+                <div class="video-ratio">
+                    <iframe width="956" height="538" src="https://www.youtube.com/embed/AhMiELenwWU" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
 
-            <form method="POST" action="" id="sign-form">
-                <ul>
-                    <li><input type="text" class="input--text" placeholder="Pick a username"></li>
-                    <li><input type="email" class="input--text" placeholder="Your email address"></li>
-                    <li>
-                        <input type="password" class="input--text" placeholder="Create a password">
-                        <p class="caption">Use at least one letter, one numeral, and seven characters.</p>
-                    </li>
-                    <li>
-                        <button type="submit" class="btn btn--primary">Sign up for GitHub</button>
-                        <p class="caption">By clicking "Sign up for GitHub", you agree to our terms of service and privacy policy. We'll occasionally send you account related emails.</p>
-                    </li>
-                </ul>
-            </form>
+            <div class="tiles">
+                <div class="inner">
 
-        </div>
-    </section>
+                    <ul>
+                        <li>
+                            <img src="img/feature-tile__build.png" alt="build">
+                            <h3>For everything you build </h3>
+                            <p>Host and manage your code on GitHub. You can keep your work private or share it with the
+                                world.
+                            </p>
+                        </li>
+                        <li>
+                            <img src="img/feature-tile__work.png" alt="work">
+                            <h3>A better way to work
+                            </h3>
+                            <p>From hobbyists to professionals, GitHub helps developers simplify the way they build
+                                software.
+                            </p>
+                        </li>
+                        <li>
+                            <img src="img/feature-tile__projects.png" alt="projects">
+                            <h3>Millions of projects
+                            </h3>
+                            <p>GitHub is home to millions of open source projects. Try one out or get inspired to create
+                                your own.
+                            </p>
+                        </li>
+                        <li>
+                            <img src="img/feature-tile__platform.png" alt="platform">
+                            <h3>One platform, from start to finish
+                            </h3>
+                            <p>With hundreds of integrations, GitHub is flexible enough to be at the center of your
+                                development process.
+                            </p>
+                        </li>
+                    </ul>
 
-    <!-- Footer -->
+                </div>
+            </div>
 
-</div>
+        </section>
+
+
+        <!-- Footer -->
+
+    </div>
 </body>
+
 </html>
