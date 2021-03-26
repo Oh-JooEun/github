@@ -473,3 +473,10 @@ footer .logo {
 footer .logo:hover svg {
     fill: #4078c0;
 }
+
+/* Media */
+@media all and (max-width: 1024px) {
+    header .inner {
+        max-width: none;
+    }
+}
