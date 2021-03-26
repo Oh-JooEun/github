@@ -11,3 +11,8 @@
 - .inner--text box-sizing 수정
 - Visual 완성
 - Feature 완성
+
+# 2021-03-24
+- map 완성
+- pricing card 완성
+- footer 추가
